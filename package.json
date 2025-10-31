@@ -1,6 +1,12 @@
 {
-  "name": "totp-sdk",
+  "name": "@yourorg/totp-sdk",
   "description": "free open source ai gen. TOTP sdk for JS",
+  "main": "dist/totp-sdk.js",
+  "types": "dist/totp-sdk.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
   "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
@@ -14,7 +20,6 @@
   },
   "dependencies": {
     "install": "^0.13.0",
-    "ipdid-did-resolver": "^0.0.5",
     "qrcode": "^1.5.4"
   }
 }
