@@ -1,0 +1,20 @@
+{
+  "name": "totp-sdk",
+  "description": "free open source ai gen. TOTP sdk for JS",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "ipdid-did-resolver": "^0.0.5",
+    "qrcode": "^1.5.4"
+  }
+}
