@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "install": "^0.13.0",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "typedoc": "^0.28.14"
   }
 }
